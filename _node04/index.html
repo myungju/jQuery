@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="제작툴"/>
+        <meta name="author" content="제작자" />
+        <meta name="keywords" content="사이트 키워드" />
+        <meta name="description" content="사이트 설명" />
+        <title>node</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script>
+            function test(){
+                var main=document.getElementsByTagName("div");
+                var ulList=main[0].getElementsByTagName("ul");
+                var liList=ulList[0].getElementsByTagName("li");
+                
+                for(var i=0; i<liList.length;i++){
+                    if(liList[i].getAttribute("class")=="current"){
+                        liList[i].style.backgroundColor="#09f";
+                        liList[i].style.color="#fff";
+                        liList[i].style.listStyle="none";
+                        break;
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body onload="test();">
+        
+        <h3>자바스크립트에서의 노드 접근</h3>
+        <p>단락1</p>
+        
+        <div id="main">
+            <p>단락2</p>
+            <ul id="navi">
+                <li>메뉴1</li>
+                <li class="current">메뉴2</li>
+                <li>메뉴3</li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

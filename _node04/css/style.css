@@ -1,0 +1,9 @@
+body{
+    font-family:"맑은 고딕", Arial, sans-serif;
+    font-size:0.9em;
+}
+
+h1,h2,h3,h4{
+    letter-spacing: -0.1em;
+    font-weight: normal;
+}
