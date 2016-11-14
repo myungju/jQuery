@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="제작툴"/>
+        <meta name="author" content="제작자" />
+        <meta name="keywords" content="사이트 키워드" />
+        <meta name="description" content="사이트 설명" />
+        <title>0104_javascript</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script>
+        
+if(window.addEventListener){
+    window.addEventListener("load",init);
+}else{
+    window.attachEvent("onload",init);
+}
+
+function init(){
+    var box=document.getElementById("box");
+
+    function resizing(){
+        box.style.width="200px";
+        box.style.height="200px";
+    }
+    function coloring(){
+        box.style.background="#09f";
+    }
+    function hide(){
+        box.style.display="none";
+        //box.style.visibility="hidden";
+    }
+    function show(){
+        box.style.display="block";
+        //box.style.visibility="visible";
+    }
+    
+    var evtA1=document.getElementById("size");
+    var evtA2=document.getElementById("color");
+    var evtA3=document.getElementById("hide");
+    var evtA4=document.getElementById("show");
+    
+    if(evtA1.addEventListener){
+        evtA1.addEventListener("click",resizing);
+        evtA2.addEventListener("click",coloring);
+        evtA3.addEventListener("click",hide);
+        evtA4.addEventListener("click",show);
+    }else{
+        evtA1.addEventListener("click",resizing);
+        evtA2.addEventListener("click",coloring);
+        evtA3.addEventListener("click",hide);
+        evtA4.addEventListener("click",show);
+    }
+}
+
+</script>
+    </head>
+    <body>
+        
+        
+        <div id="box"></div>
+        <br>
+        <button id="size">size</button>
+        <button id="color">color</button>
+        <button id="hide">hide</button>
+        <button id="show">show</button>
+    </body>
+</html>

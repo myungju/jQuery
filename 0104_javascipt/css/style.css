@@ -1,0 +1,26 @@
+body,a{
+    text-decoration:none;
+    font-family:"맑은 고딕", Arial, sans-serif;
+    font-size:0.9em;
+    color:#666;
+}
+
+button{
+    padding:5px 15px;
+    font-family:"맑은 고딕",Arial, sans-serif;
+    background:#666;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+
+a:hover{
+    color:#09f;
+}
+
+#box{
+    width:100px;
+    height:100px;
+    border:2px solid #09f;
+}
