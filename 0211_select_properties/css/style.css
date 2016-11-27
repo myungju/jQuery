@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+    font-family:"맑은 고딕",Arial, sans-serif;
+    font-size:0.9em;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul, li{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style:none;
+}
