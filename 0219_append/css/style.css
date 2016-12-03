@@ -1,0 +1,15 @@
+body{
+    font-family:"맑은 고딕",Arial, sans-serif;
+    font-size:0.9em;
+}
+
+button{
+    padding: 5px 15px;
+    font-family: Arial,sans-serif;
+    background:#666;
+    color: #fff;
+    border : none;
+    cursor : pointer;
+    border-radius:5px;
+    -webkit=border-radius:5px;
+}
