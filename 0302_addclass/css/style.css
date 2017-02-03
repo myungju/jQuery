@@ -1,0 +1,16 @@
+body{
+    font-family:"맑은 고딕", Arial, sans-serif;
+    font-size:0.9em;
+}
+div{
+    background:white;
+}
+.orange{
+    background:#f90;
+}
+.green{
+    background:#b6ef52;
+}
+.orange.green{
+    background:#f90;
+}
